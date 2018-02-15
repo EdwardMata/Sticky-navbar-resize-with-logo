@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .5s;
+    background: rgba(0, 0, 0, .10);    
+}
+
+nav .logo {
+    float: left;
+}
+
+nav .logo img {
+    height: 80px;
+    transition: .5s;
+}
+
+nav.black .logo img {
+    height: 60px;    
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    list-style: 80px;
+    color: #262626;
+    padding: 2px 20px;
+    line-height: 80px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+nav.black ul li a {    
+    color: #fff;
+    line-height: 40px;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #fff;
+    background: #f00;
+}
+
+nav.black {
+    background: rgba(0, 0, 0, .65);
+    height: 60px;
+    padding: 10px 50px;
+}
+
+section.sec1 {
+    width: 100%;
+    height: 100vh;
+    background: url("http://www.publicdomainpictures.net/pictures/240000/velka/scenic-landscape-1508373727uru.jpg");
+    background-size: cover;
+}
+
+section.content {
+    padding: 100px;
+}
+
+section.content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
