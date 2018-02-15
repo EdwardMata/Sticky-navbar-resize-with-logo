@@ -1,0 +1,1 @@
+# Sticky-navbar-resize-with-logo
